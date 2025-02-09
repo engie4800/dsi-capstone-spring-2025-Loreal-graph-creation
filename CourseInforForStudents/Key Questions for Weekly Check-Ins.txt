@@ -9,21 +9,21 @@ Please complete the following questions about your project progress. Keep your r
 
 
 1a. Weekly mentor meeting attendance (for missing members, provide reason):
-
+All members present.
 
 
 1b. Was there a good discussion/Did you get your questions answered/requests responded to?
-
+The conversation was good and we were able to get our questions answered by our mentor. He explained the motivation of the project and where to find our dataset.
 
 
 1c. Any issues with the mentor communication?
-
+No.
 
 
 
 
 2a. Team working meeting attendance (for missing members, provide reason): 
-
+We plan to meet on Wednesday mornings so our first team working meeting has not happened yet.
 
 
 2b. Was there a discussion on the work? 
@@ -42,8 +42,6 @@ Please complete the following questions about your project progress. Keep your r
 
 3. Any questions/feedback? 
 
-Although the topic is interesting, it mainly asks for industrial research now. We are not certain how we can apply technical skills or develop a real product, which might need help from course assistants or direct communication with mentors.
-
 
 
 
@@ -51,20 +49,20 @@ Although the topic is interesting, it mainly asks for industrial research now. W
 First meetings only:
 
    1. Is the project goal/plan over the semester clear?
-
+      Yes.
 
 
    2. What’s your current knowledge level on this project’s theme on a scale of 1-5? (1 being completely new to the topic)
-
+      Our knowledge of the project's theme is different for each person but would average to around a 3.
 
 
    3. Have you selected a caption? How are you discussing who’s learning or working on the different aspects and technologies of the project?
-
+      Not yet. We plan to discuss this more during our team meeting but we are all currently doing research into the technology used in this project.
 
 
    4. Have you set up the Github repository yet?
-
+      No.
 
 
    5. Are the mentors engaged and responsive?
-
+      Yes.

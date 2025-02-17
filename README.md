@@ -6,14 +6,11 @@ This course provides a unique opportunity for students in the MS in Data Science
 
 ## Team Structure
 
-Select a team captain (with or without help from mentor/instructor/supervisor)
+1. Brandon Keung, bk2951
+2. Jiaheng Dai, jd4136
+3. Jiayi Dong, jd4123
+4. Pei Tian, pt2632
 
-Record your names here in this format-
-1. Team captain name, UNI
-2. Member name, UNI
-3. Member name, UNI
-
-and so on.   
 
 ## Instructions
 
@@ -30,4 +27,3 @@ For No.3- refer to the course info and maintain a weekly log of all within the f
 NOTE: Completion of weekly check in progress logs and showing up for the 15 minute check ins will count towards your participation grade.
 
 The code can be placed in a folder named code, and the remaining files can be placed as .pdf files in the root directory.
-   

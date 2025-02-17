@@ -6,7 +6,7 @@ This course provides a unique opportunity for students in the MS in Data Science
 
 ## Team Structure
 
-1. Brandon Keung, bk2951
+1. Brandon Keung, bk2951 (Team Captain)
 2. Jiaheng Dai, jd4136
 3. Jiayi Dong, jd4123
 4. Pei Tian, pt2632

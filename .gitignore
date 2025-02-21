@@ -7,3 +7,6 @@ unstructured.txt
 **/.idea/
 **/.DS_Store
 **/env/
+
+**/data
+private-config.json

@@ -3,6 +3,8 @@ pandas
 networkx
 matplotlib
 seaborn
+jupyter
+ipywidgets
 
 faiss-cpu 
 bitsandbytes 

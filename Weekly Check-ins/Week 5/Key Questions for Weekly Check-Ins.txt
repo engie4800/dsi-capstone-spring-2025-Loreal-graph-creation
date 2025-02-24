@@ -13,11 +13,12 @@ All members present.
 
 
 1b. Was there a good discussion/Did you get your questions answered/requests responded to?
-We were able to ask our mentor questions that clarified the objective of our project. We also were able to obtain github repository for past semester's work.
+We presented the progress in the past week and the time line for this semester. 
+Discussed on the direction of our project and technical detail regarding GraphRAG
 
 
 1c. Any issues with the mentor communication?
-A little confusion over weekly check ins with mentor but everything is confirmed now.
+No. We had a pretty good conversation with mentor.
 
 
 
@@ -27,17 +28,16 @@ All members present
 
 
 2b. Was there a discussion on the work? 
-Yes.
+We nailed down the time line for the project.
 
 
 2c. Did you have a project management component? Did you make progress? Does everyone know what to do next?
-We made a plan to create a timeline for our project to guide our work throughout the semester. Everyone is helping with the timeline and looking into resources/tutorials on how to approach our project.
-
+We discussed the project and made plan for the coming week.
 
 2d. Any challenges or roadblocks?
-Had some confusion on what the primary objective of this project was at it seemed complete from last semester.
+We are working on using neo4j to replicate previous works and experimenting on new dataset.
 
 
 
 3. Any questions/feedback? 
-What should we do differently from last semester.
+N/A

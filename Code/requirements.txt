@@ -5,6 +5,7 @@ matplotlib
 seaborn
 jupyter
 ipywidgets
+python-dotenv 
 
 faiss-cpu 
 bitsandbytes 
@@ -17,10 +18,14 @@ langchain_openai
 llama_index
 
 neo4j
+graphdatascience
 
 datasets 
 huggingface_hub
 sentence_transformers 
 openai 
+chromadb
+tiktoken 
+gradio 
 
 ragas 

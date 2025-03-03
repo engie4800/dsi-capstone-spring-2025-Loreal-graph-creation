@@ -1,0 +1,25 @@
+# Weekly check-in Week 6
+
+1a. Weekly mentor meeting attendance (for missing members, provide reason):
+All members present.
+
+1b. Was there a good discussion/Did you get your questions answered/requests responded to?
+We presented the progress in the past week, which includes Neo4j KG Construction, GraphRAG Pipeline Testing, Evaluation Pipeline, and ChromaDB, which were the sections each of us worked on. 
+
+1c. Any issues with the mentor communication?
+No. The meeting went smooth. 
+
+2a. Team working meeting attendance (for missing members, provide reason): 
+All members present.
+
+2b. Was there a discussion on the work? 
+We discussed the main difficulty and doubts to raise in the mentor meeting. We also attribute workload to each person. For example, mine was complete rag pipeline (include the vectors) and find existing prompts (fashion, customer reviews). 
+
+2c. Did you have a project management component? Did you make progress? Does everyone know what to do next?
+Yes, it was basically what we did during our team working meeting on Tuesday. I made progress on the vector RAG pipeline part, and I’m currently using last group’s prompt for now.
+
+2d. Any challenges or roadblocks?
+The question about the rigorousness of using LLM as judge. Proposed human evaluation of around 100-1000 evaluation samples. 
+
+3. Any questions/feedback? 
+N/A

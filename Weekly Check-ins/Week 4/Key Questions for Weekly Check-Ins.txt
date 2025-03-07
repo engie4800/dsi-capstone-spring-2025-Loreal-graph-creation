@@ -1,0 +1,42 @@
+Weekly Progress Check-In Instructions (to be filled out by the member invited and/or Captain):
+
+
+
+
+
+Please complete the following questions about your project progress. Keep your response concise, 1-2 sentences max per question. We will go over them in the zoom check-in:
+
+
+
+1a. Weekly mentor meeting attendance (for missing members, provide reason):
+All members present.
+
+
+1b. Was there a good discussion/Did you get your questions answered/requests responded to?
+Yes. We discussed the knowledge construction method and database for storage after research.
+
+
+1c. Any issues with the mentor communication?
+No issue.
+
+
+
+
+2a. Team working meeting attendance (for missing members, provide reason): 
+All members present
+
+
+2b. Was there a discussion on the work? 
+Yes.
+
+
+2c. Did you have a project management component? Did you make progress? Does everyone know what to do next?
+We start to review the Github repo from previous project to grasp the crucial component of our project. Everyone worked on differnt part and discussed to enhance understanding. Our next step is re-implement the pipeline for different component.
+
+
+2d. Any challenges or roadblocks?
+We need to do data engineering and create pipeline demo in the meantime.
+
+
+3. Any questions/feedback? 
+What kind of resource in necessary for our project? (e.g. OpenAI API key, collaborative Neo4j database)

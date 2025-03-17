@@ -1,0 +1,28 @@
+MERGE (n:Product {id: "vaguellyHarmonicaHolder"}) ON CREATE SET n.title = "Vaguelly Harmonica Holder Harmonica Box Wooden Chromatic Harmonica Case Harmonica Protective Box for Musical Instrument Storage Harmonica Neck Holder", n.description = "Description Harmonica Box 24 Hole Harmonica  Carrying Case Musical Instrument Storage Box; Features -Color:As Shown;-Material:Wood;-Size:25.00X7.00X4.00cm/9.82X2.75X1.57in; Package Including 1 x Box;", n.price = "13.52", n.averageRating = "5.0"
+MERGE (n:Category {id: "healthPersonalCare"}) ON CREATE SET n.name = "Health & Personal Care"
+MERGE (n:Store {id: "vaguelly"}) ON CREATE SET n.name = "Vaguelly"
+MERGE (n:Format {id: "woodenBox"}) ON CREATE SET n.name = "Wooden Box"
+MERGE (n:Product {id: "365AloeVeraJuice"}) ON CREATE SET n.title = "365 by Whole Foods Market, Juice Aloe Vera Whole Leaf Filtered Organic, 32 Fl Oz", n.description = "The Aloe plant has been utilized for its health benefits for thousands of years. Our Aloe is traditionally processed using the entire leaf. This inclusive method retains more biologically active components found in the most potent part of the plant. Made with pure Aloe Vera Juice and no added water or sugar, our Aloe Vera Juice can help soothe your upset stomach, mucous membranes and other internal tissues.", n.price = "0.0", n.averageRating = "4.6"
+MERGE (n:Category {id: "healthPersonalCare"}) ON CREATE SET n.name = "Health & Personal Care"
+MERGE (n:Store {id: "365WholeFoodsMarket"}) ON CREATE SET n.name = "365 by Whole Foods Market"
+MERGE (n:Format {id: "liquid"}) ON CREATE SET n.name = "Liquid"
+MERGE (n:Product {id: "sueroXZeroSugar"}) ON CREATE SET n.title = "SueroX Zero Sugar Electrolyte Drink for Hydration and Recovery, Unique Blend of Electrolytes & 8 Ions, Zero Calorie Sports Drink, 21.3 Fl Oz, Berry Blast, 12 Count", n.description = "SueroX is an everyday sugarless hydration solution, offering a great taste without any of the guilt. It's the recovery drink that doesn't taste like one. SueroX is intended to keep you hydrated throughout your day, no matter your lifestyle. Happy hour, soccer games, conference calls or hanging out in the backyard with family and friends. Available in 7 mouth-watering flavors - Coconut, Grape, Blueberry, Strawberry-Kiwi, Berries, Lemon and Orange. They include zero sugar, zero calories, and a unique blend of 5 electrolytes and 8 important ions - Calcium, Potassium, Magnesium, Chloride and more. SueroX also contains high levels of zinc, which aids in supporting the immune system. Be it a tedious office meeting or a fantastic night out, SueroX helps you recover quickly, and rehydrate to keep going. It's also great when you're sick or recovering from a hangover. SueroX - Taste the power of rehydration. This tropical pack contains 4 flavors - Coconut, Strawberry, Grape and Orange", n.price = "24.99", n.averageRating = "4.3"
+MERGE (n:Category {id: "healthPersonalCare"}) ON CREATE SET n.name = "Health & Personal Care"
+MERGE (n:Store {id: "sueroX"}) ON CREATE SET n.name = "SueroX"
+MERGE (n:Format {id: "liquid"}) ON CREATE SET n.name = "Liquid"
+MERGE (n:Product {id: "tuorenGuitarSupport"}) ON CREATE SET n.title = "TUOREN Guitar Support Adjustable Rest Aluminum Guitar Footstool Leg Stand for Classical Guitar Black", n.description = "Description: - Suitable for all kinds of classical guitars with glossy surface and for various uses,, as neck rest and guitar support. - The supports do not work with very thin guitars. The guitar needs to be at least 3 1/2" wide for the suction cups to attach. - Can Be Fixed Securely Without Leaving Marks! Clamping Screw For Easy Adjustment; Adjust As Needed!", n.price = "19.99", n.averageRating = "3.0"
+MERGE (n:Category {id: "healthPersonalCare"}) ON CREATE SET n.name = "Health & Personal Care"
+MERGE (n:Store {id: "tuoren"}) ON CREATE SET n.name = "TUOREN"
+MERGE (n:Format {id: "aluminum"}) ON CREATE SET n.name = "Aluminum"
+MERGE (a:Product {id: "vaguellyHarmonicaHolder"}) MERGE (b:Category {id: "healthPersonalCare"}) MERGE (a)-[:BELONGS_TO]->(b)
+MERGE (a:Product {id: "vaguellyHarmonicaHolder"}) MERGE (b:Store {id: "vaguelly"}) MERGE (a)-[:SOLD_BY]->(b)
+MERGE (a:Product {id: "vaguellyHarmonicaHolder"}) MERGE (b:Format {id: "woodenBox"}) MERGE (a)-[:HAS_FORMAT]->(b)
+MERGE (a:Product {id: "365AloeVeraJuice"}) MERGE (b:Category {id: "healthPersonalCare"}) MERGE (a)-[:BELONGS_TO]->(b)
+MERGE (a:Product {id: "365AloeVeraJuice"}) MERGE (b:Store {id: "365WholeFoodsMarket"}) MERGE (a)-[:SOLD_BY]->(b)
+MERGE (a:Product {id: "365AloeVeraJuice"}) MERGE (b:Format {id: "liquid"}) MERGE (a)-[:HAS_FORMAT]->(b)
+MERGE (a:Product {id: "sueroXZeroSugar"}) MERGE (b:Category {id: "healthPersonalCare"}) MERGE (a)-[:BELONGS_TO]->(b)
+MERGE (a:Product {id: "sueroXZeroSugar"}) MERGE (b:Store {id: "sueroX"}) MERGE (a)-[:SOLD_BY]->(b)
+MERGE (a:Product {id: "sueroXZeroSugar"}) MERGE (b:Format {id: "liquid"}) MERGE (a)-[:HAS_FORMAT]->(b)
+MERGE (a:Product {id: "tuorenGuitarSupport"}) MERGE (b:Category {id: "healthPersonalCare"}) MERGE (a)-[:BELONGS_TO]->(b)
+MERGE (a:Product {id: "tuorenGuitarSupport"}) MERGE (b:Store {id: "tuoren"}) MERGE (a)-[:SOLD_BY]->(b)
+MERGE (a:Product {id: "tuorenGuitarSupport"}) MERGE (b:Format {id: "aluminum"}) MERGE (a)-[:HAS_FORMAT]->(b)

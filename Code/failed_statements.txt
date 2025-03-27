@@ -1,1 +1,0 @@
-MERGE (a:Product {id: "tuorenGuitarSupport"}) MERGE (b:Format {id: "aluminum"}) MERGE (a)-[:HAS_FORMAT]->(b) - Exception: Cannot resolve address 4a611e89.databases.neo4j.io:7687

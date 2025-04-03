@@ -1,0 +1,182 @@
+CREATE (:Item {name: '4.8'});
+CREATE (:Item {name: 'NAIL ART STICKERS & DECALS'});
+CREATE (:Item {name: 'HFOTD HEAD SHAVER'});
+CREATE (:Item {name: 'PIOCMUY'});
+CREATE (:Item {name: 'BUNNY NAIL ART STICKERS'});
+CREATE (:Item {name: 'LED LIGHT'});
+CREATE (:Item {name: 'PIOCMUY SILKY SMOOTH HAIR ERASER'});
+CREATE (:Item {name: 'BAIYIYI 3D GOLD NAIL ART CHARMS'});
+CREATE (:Item {name: 'RYAOLFLY'});
+CREATE (:Item {name: 'QUICK-DRYING MATERIAL'});
+CREATE (:Item {name: '8.99'});
+CREATE (:Item {name: 'PRICE'});
+CREATE (:Item {name: '9.62'});
+CREATE (:Item {name: '2.4'});
+CREATE (:Item {name: 'AIUPUOC'});
+CREATE (:Item {name: 'TALE KING'});
+CREATE (:Item {name: '19.99'});
+CREATE (:Item {name: '4.7'});
+CREATE (:Item {name: 'BEAUTY & PERSONAL CARE'});
+CREATE (:Item {name: 'EASY TO APPLY'});
+CREATE (:Item {name: '39.99'});
+CREATE (:Item {name: '2.8'});
+CREATE (:Item {name: '4.1'});
+CREATE (:Item {name: 'ALL BEAUTY'});
+CREATE (:Item {name: 'HEATLESS HAIR CURLER'});
+CREATE (:Item {name: 'NON SLIP SILICONE DESIGN'});
+CREATE (:Item {name: 'HAOKANBA'});
+CREATE (:Item {name: '16.99'});
+CREATE (:Item {name: '30 DAYS FREE EXCHANGE AND RETURNS'});
+CREATE (:Item {name: 'TATJACKET UNISEX-ADULT COVER UP'});
+CREATE (:Item {name: 'BAIYIYI'});
+CREATE (:Item {name: '3PCS WORKOUT HEADBANDS'});
+CREATE (:Item {name: 'EASY TO CLEAN'});
+CREATE (:Item {name: '3D ST. PATRICK'S DAY NAIL ART DECALS'});
+CREATE (:Item {name: 'SILK SATIN HAIR BONNETS'});
+CREATE (:Item {name: 'EPILATOR SMOOTH GLIDE EPILATOR'});
+CREATE (:Item {name: '3D ACRYLIC FLOWER NAIL ART DECORATION'});
+CREATE (:Item {name: '4.4'});
+CREATE (:Item {name: 'TATJACKET'});
+CREATE (:Item {name: '23.97'});
+CREATE (:Item {name: 'HFOTD'});
+CREATE (:Item {name: 'HEAD SHAVER REPLACEMENT BLADES'});
+CREATE (:Item {name: 'FLEND'});
+CREATE (:Item {name: 'EXVOCHT'});
+CREATE (:Item {name: 'USB RECHARGEABLE'});
+CREATE (:Item {name: 'AVERAGE RATING'});
+CREATE (:Item {name: 'COLORFUL-BOWS NAIL CHARMS-20PCS'});
+CREATE (:Item {name: 'ZEXIK'});
+CREATE (:Item {name: 'ADJUSTABLE TIE BAND'});
+CREATE (:Item {name: 'HAOKANBA HAIR REGROWTH TREATMENT'});
+CREATE (:Item {name: 'HEAD SHAVER FOR MEN'});
+CREATE (:Item {name: 'ACRYLIC'});
+CREATE (:Item {name: 'HEATLESS CURLING ROD HEADBAND'});
+CREATE (:Item {name: 'BUNNY NAIL ART STICKERS EASTER NAIL ART DECALS'});
+CREATE (:Item {name: '6 HEAD BLADES'});
+CREATE (:Item {name: 'RESIN'});
+MATCH (a:Item {name: '3PCS WORKOUT HEADBANDS'}), (b:Item {name: 'ALL BEAUTY'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: '3PCS WORKOUT HEADBANDS'}), (b:Item {name: 'ZEXIK'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: '3PCS WORKOUT HEADBANDS'}), (b:Item {name: '4.1'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: '3PCS WORKOUT HEADBANDS'}), (b:Item {name: '8.99'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: '3PCS WORKOUT HEADBANDS'}), (b:Item {name: 'NON SLIP SILICONE DESIGN'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: '3PCS WORKOUT HEADBANDS'}), (b:Item {name: 'QUICK-DRYING MATERIAL'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'ALL BEAUTY'}), (b:Item {name: 'HEAD SHAVER REPLACEMENT BLADES'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'ALL BEAUTY'}), (b:Item {name: '3D ST. PATRICK'S DAY NAIL ART DECALS'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'ALL BEAUTY'}), (b:Item {name: 'HFOTD HEAD SHAVER'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'ALL BEAUTY'}), (b:Item {name: 'PIOCMUY SILKY SMOOTH HAIR ERASER'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'ALL BEAUTY'}), (b:Item {name: 'HAOKANBA HAIR REGROWTH TREATMENT'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HEAD SHAVER REPLACEMENT BLADES'}), (b:Item {name: 'HFOTD'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HEAD SHAVER REPLACEMENT BLADES'}), (b:Item {name: '4.8'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HEAD SHAVER REPLACEMENT BLADES'}), (b:Item {name: '19.99'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HEAD SHAVER REPLACEMENT BLADES'}), (b:Item {name: '6 HEAD BLADES'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HEAD SHAVER REPLACEMENT BLADES'}), (b:Item {name: 'EASY TO CLEAN'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HFOTD'}), (b:Item {name: 'HFOTD HEAD SHAVER'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: '3D ST. PATRICK'S DAY NAIL ART DECALS'}), (b:Item {name: 'RYAOLFLY'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: '3D ST. PATRICK'S DAY NAIL ART DECALS'}), (b:Item {name: '2.8'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: '3D ST. PATRICK'S DAY NAIL ART DECALS'}), (b:Item {name: '9.62'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: '3D ST. PATRICK'S DAY NAIL ART DECALS'}), (b:Item {name: '3D ACRYLIC FLOWER NAIL ART DECORATION'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: '3D ST. PATRICK'S DAY NAIL ART DECALS'}), (b:Item {name: 'EASY TO APPLY'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'EPILATOR SMOOTH GLIDE EPILATOR'}), (b:Item {name: 'FLEND'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'EPILATOR SMOOTH GLIDE EPILATOR'}), (b:Item {name: 'AVERAGE RATING'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'EPILATOR SMOOTH GLIDE EPILATOR'}), (b:Item {name: 'PRICE'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'EPILATOR SMOOTH GLIDE EPILATOR'}), (b:Item {name: 'BEAUTY & PERSONAL CARE'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'EPILATOR SMOOTH GLIDE EPILATOR'}), (b:Item {name: 'NAIL ART STICKERS & DECALS'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'EPILATOR SMOOTH GLIDE EPILATOR'}), (b:Item {name: 'RESIN'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'EPILATOR SMOOTH GLIDE EPILATOR'}), (b:Item {name: 'ACRYLIC'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'EPILATOR SMOOTH GLIDE EPILATOR'}), (b:Item {name: 'LED LIGHT'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'FLEND'}), (b:Item {name: 'HEAD SHAVER FOR MEN'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'AVERAGE RATING'}), (b:Item {name: 'HEAD SHAVER FOR MEN'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'AVERAGE RATING'}), (b:Item {name: 'HEATLESS HAIR CURLER'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'AVERAGE RATING'}), (b:Item {name: 'TATJACKET UNISEX-ADULT COVER UP'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'AVERAGE RATING'}), (b:Item {name: 'BAIYIYI 3D GOLD NAIL ART CHARMS'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'PRICE'}), (b:Item {name: 'HEAD SHAVER FOR MEN'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'PRICE'}), (b:Item {name: 'HEATLESS HAIR CURLER'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'PRICE'}), (b:Item {name: 'TATJACKET UNISEX-ADULT COVER UP'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'PRICE'}), (b:Item {name: 'BAIYIYI 3D GOLD NAIL ART CHARMS'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'BEAUTY & PERSONAL CARE'}), (b:Item {name: 'HEAD SHAVER FOR MEN'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'BEAUTY & PERSONAL CARE'}), (b:Item {name: 'BUNNY NAIL ART STICKERS EASTER NAIL ART DECALS'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'BEAUTY & PERSONAL CARE'}), (b:Item {name: 'SILK SATIN HAIR BONNETS'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'NAIL ART STICKERS & DECALS'}), (b:Item {name: 'BUNNY NAIL ART STICKERS EASTER NAIL ART DECALS'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HEAD SHAVER FOR MEN'}), (b:Item {name: 'USB RECHARGEABLE'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HFOTD HEAD SHAVER'}), (b:Item {name: '4.7'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HFOTD HEAD SHAVER'}), (b:Item {name: '39.99'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'PIOCMUY SILKY SMOOTH HAIR ERASER'}), (b:Item {name: 'PIOCMUY'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'PIOCMUY SILKY SMOOTH HAIR ERASER'}), (b:Item {name: '2.4'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'PIOCMUY SILKY SMOOTH HAIR ERASER'}), (b:Item {name: '16.99'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HAOKANBA HAIR REGROWTH TREATMENT'}), (b:Item {name: 'HAOKANBA'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HAOKANBA HAIR REGROWTH TREATMENT'}), (b:Item {name: '4.4'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HAOKANBA HAIR REGROWTH TREATMENT'}), (b:Item {name: '23.97'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HAOKANBA'}), (b:Item {name: 'HEATLESS HAIR CURLER'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HEATLESS HAIR CURLER'}), (b:Item {name: 'EXVOCHT'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'HEATLESS HAIR CURLER'}), (b:Item {name: 'HEATLESS CURLING ROD HEADBAND'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'TATJACKET'}), (b:Item {name: 'TATJACKET UNISEX-ADULT COVER UP'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'BAIYIYI'}), (b:Item {name: 'BAIYIYI 3D GOLD NAIL ART CHARMS'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'BAIYIYI'}), (b:Item {name: 'BUNNY NAIL ART STICKERS'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'BUNNY NAIL ART STICKERS EASTER NAIL ART DECALS'}), (b:Item {name: 'AIUPUOC'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'BUNNY NAIL ART STICKERS EASTER NAIL ART DECALS'}), (b:Item {name: 'COLORFUL-BOWS NAIL CHARMS-20PCS'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'SILK SATIN HAIR BONNETS'}), (b:Item {name: 'TALE KING'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'SILK SATIN HAIR BONNETS'}), (b:Item {name: 'ADJUSTABLE TIE BAND'})
+CREATE (a)-[:RELATED_TO]->(b);
+MATCH (a:Item {name: 'SILK SATIN HAIR BONNETS'}), (b:Item {name: '30 DAYS FREE EXCHANGE AND RETURNS'})
+CREATE (a)-[:RELATED_TO]->(b);

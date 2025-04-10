@@ -38,8 +38,8 @@ doc_transformer = LLMGraphTransformer(
     "Item weight", "Manufacturer", "Material", "Price", "Product Category", "Style"
     ],
     allowed_relationships=[
-     "CONTAINS", "DESIGNED_FOR","DRESS_WITH", "ESSENTIAL_FOR", "FEATURED_MATERIAL", 
-    "FUNCTION", "HAS_AVERAGE_RATING", "HAS_COLOR", "HAS_PRICE", "MADE_IN", "MANUFACTURED_BY"
+    "DESIGNED_FOR","DRESS_WITH", "ESSENTIAL_FOR", "FEATURED_MATERIAL", 
+    "FUNCTION", "HAS_AVERAGE_RATING", "HAS_COLOR", "HAS_PRICE", "MANUFACTURED_BY"
     ]
     )
 

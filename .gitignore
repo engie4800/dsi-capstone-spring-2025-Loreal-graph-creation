@@ -8,6 +8,5 @@ unstructured.txt
 **/.DS_Store
 **/env/
 
-**/data/
 **/chroma_db/
-private-config.env
+private*

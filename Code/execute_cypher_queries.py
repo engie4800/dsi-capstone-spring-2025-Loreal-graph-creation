@@ -58,4 +58,4 @@ def execute_cypher_from_file(filepath):
 
 
 if __name__ == "__main__":
-    execute_cypher_from_file("Code/beautyragtest/cypher_queries.txt")
+    execute_cypher_from_file("Code/beautyragtest2/cypher_queries.txt")

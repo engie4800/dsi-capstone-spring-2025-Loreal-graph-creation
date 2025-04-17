@@ -1,6 +1,15 @@
 import xml.etree.ElementTree as ET
 
 def parse_graphml(file_path):
+
+    with open(input_file, "r", encoding="utf-8") as f:
+        graphml_content = f.read()
+
+    graphml_content = graphml_content.replace("'", "")
+
+    with open(input_file, "w", encoding="utf-8") as f:
+        f.write(graphml_content)
+
     tree = ET.parse(file_path)
     root = tree.getroot()
     
@@ -30,12 +39,12 @@ def generate_cypher_queries(nodes, edges, output_file):
         
         # Create relationships
         for source, target in edges:
-            f.write(f"MATCH (a:Item {{name: '{source}'}}), (b:Item {{name: '{target}'}})\n")
-            f.write(f"CREATE (a)-[:RELATED_TO]->(b);\n")
+            f.write(f"""MATCH (a:Item {{name: "{source}"}}), (b:Item {{name: "{target}"}}) CREATE (a)-[:RELATED_TO]->(b);\n"""
+        )
 
 if __name__ == "__main__":
-    input_file = "Code/beautyragtest/output/graph.graphml"
-    output_file = "Code/beautyragtest/cypher_queries.txt"
+    input_file = "Code/beautyragtest2/output/graph.graphml"
+    output_file = "Code/beautyragtest2/cypher_queries.txt"
     nodes, edges = parse_graphml(input_file)
     generate_cypher_queries(nodes, edges, output_file)
     print(f"Cypher queries saved to {output_file}")

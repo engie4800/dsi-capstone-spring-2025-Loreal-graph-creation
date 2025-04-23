@@ -38,11 +38,11 @@ The CeraVe Hydrating Cleanser contains essential ceramides and hyaluronic acid t
 
 ######################
 Output:
-("entity"{tuple_delimiter}CERAVE{tuple_delimiter}BRAND{tuple_delimiter}CeraVe is a skincare brand known for products that restore and maintain the skin barrier using ceramides and hyaluronic acid})
+("entity"{tuple_delimiter}CERAVE{tuple_delimiter}BRAND{tuple_delimiter}CeraVe is a skincare brand known for products that restore and maintain the skin barrier using ceramides and hyaluronic acid)
 {record_delimiter}
-("entity"{tuple_delimiter}HYALURONIC ACID{tuple_delimiter}INGREDIENT{tuple_delimiter}Hyaluronic acid is a hydrating ingredient that attracts moisture to the skin and helps improve skin elasticity})
+("entity"{tuple_delimiter}HYALURONIC ACID{tuple_delimiter}INGREDIENT{tuple_delimiter}Hyaluronic acid is a hydrating ingredient that attracts moisture to the skin and helps improve skin elasticity)
 {record_delimiter}
-("entity"{tuple_delimiter}CERAMIDES{tuple_delimiter}INGREDIENT{tuple_delimiter}Ceramides are lipids that help form the skin's barrier and retain moisture})
+("entity"{tuple_delimiter}CERAMIDES{tuple_delimiter}INGREDIENT{tuple_delimiter}Ceramides are lipids that help form the skin's barrier and retain moisture)
 {record_delimiter}
 ("relationship"{tuple_delimiter}CERAVE{tuple_delimiter}HYALURONIC ACID{tuple_delimiter}CeraVe includes hyaluronic acid in its Hydrating Cleanser to improve skin hydration{tuple_delimiter}8)
 {record_delimiter}
@@ -57,15 +57,15 @@ The Ordinary Niacinamide 10% + Zinc 1% targets acne and oily skin by regulating 
 
 ######################
 Output:
-("entity"{tuple_delimiter}THE ORDINARY NIACINAMIDE 10% + ZINC 1%{tuple_delimiter}PRODUCT{tuple_delimiter}A serum product by The Ordinary formulated with 10% niacinamide and 1% zinc to address acne and oily skin})
+("entity"{tuple_delimiter}THE ORDINARY NIACINAMIDE 10% + ZINC 1%{tuple_delimiter}PRODUCT{tuple_delimiter}A serum product by The Ordinary formulated with 10% niacinamide and 1% zinc to address acne and oily skin)
 {record_delimiter}
-("entity"{tuple_delimiter}ACNE{tuple_delimiter}SKIN_CONCERN{tuple_delimiter}Acne is a common skin concern characterized by pimples, blackheads, and inflammation, often caused by excess sebum and clogged pores})
+("entity"{tuple_delimiter}ACNE{tuple_delimiter}SKIN_CONCERN{tuple_delimiter}Acne is a common skin concern characterized by pimples, blackheads, and inflammation, often caused by excess sebum and clogged pores)
 {record_delimiter}
-("entity"{tuple_delimiter}OILY SKIN{tuple_delimiter}SKIN_CONCERN{tuple_delimiter}Oily skin is characterized by excessive sebum production and a shiny complexion, which can lead to acne})
+("entity"{tuple_delimiter}OILY SKIN{tuple_delimiter}SKIN_CONCERN{tuple_delimiter}Oily skin is characterized by excessive sebum production and a shiny complexion, which can lead to acne)
 {record_delimiter}
-("entity"{tuple_delimiter}NIACINAMIDE{tuple_delimiter}INGREDIENT{tuple_delimiter}Niacinamide, or vitamin B3, is an ingredient that helps regulate oil production and reduce the appearance of pores})
+("entity"{tuple_delimiter}NIACINAMIDE{tuple_delimiter}INGREDIENT{tuple_delimiter}Niacinamide, or vitamin B3, is an ingredient that helps regulate oil production and reduce the appearance of pores)
 {record_delimiter}
-("entity"{tuple_delimiter}ZINC{tuple_delimiter}INGREDIENT{tuple_delimiter}Zinc is a mineral that helps control inflammation and sebum production in skincare formulations})
+("entity"{tuple_delimiter}ZINC{tuple_delimiter}INGREDIENT{tuple_delimiter}Zinc is a mineral that helps control inflammation and sebum production in skincare formulations)
 {record_delimiter}
 ("relationship"{tuple_delimiter}THE ORDINARY NIACINAMIDE 10% + ZINC 1%{tuple_delimiter}ACNE{tuple_delimiter}The product is designed to treat acne by regulating oil and reducing inflammation{tuple_delimiter}9)
 {record_delimiter}

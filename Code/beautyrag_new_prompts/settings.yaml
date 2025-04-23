@@ -13,7 +13,7 @@ models:
     api_key: ${GRAPHRAG_API_KEY} # set this in the generated .env file
     # audience: "https://cognitiveservices.azure.com/.default"
     # organization: <organization_id>
-    model: gpt-4-turbo-preview
+    model: gpt-4o-mini    # model: gpt-4-turbo-preview
     # deployment_name: <azure_model_deployment_name>
     # encoding_model: cl100k_base # automatically set by tiktoken if left undefined
     model_supports_json: true # recommended if this is available for your model.
@@ -86,8 +86,8 @@ output:
 extract_graph:
   model_id: default_chat_model
   prompt: "prompts/extract_graph.txt"
-  entity_types: [organization,person,geo,event]
-  max_gleanings: 1
+  entity_types: [Product Type,Brand,Product Name,Price,Rank,Ingredient,Skin Type, Size, Description, Feature]
+  max_gleanings: 3    # TODO: increasing this will likely increase performance significantly
 
 summarize_descriptions:
   model_id: default_chat_model
@@ -99,11 +99,11 @@ extract_graph_nlp:
     extractor_type: regex_english # [regex_english, syntactic_parser, cfg]
 
 extract_claims:
-  enabled: false
+  enabled: true
   model_id: default_chat_model
   prompt: "prompts/extract_claims.txt"
   description: "Any claims or facts that could be relevant to information discovery."
-  max_gleanings: 1
+  max_gleanings: 3  # TODO: increasing this will likely increase performance significantly
 
 community_reports:
   model_id: default_chat_model
@@ -116,14 +116,14 @@ cluster_graph:
   max_cluster_size: 10
 
 embed_graph:
-  enabled: false # if true, will generate node2vec embeddings for nodes
+  enabled: true # if true, will generate node2vec embeddings for nodes
 
 umap:
-  enabled: false # if true, will generate UMAP embeddings for nodes (embed_graph must also be enabled)
+  enabled: true # if true, will generate UMAP embeddings for nodes (embed_graph must also be enabled)
 
 snapshots:
-  graphml: false
-  embeddings: false
+  graphml: true
+  embeddings: true
 
 ### Query settings ###
 ## The prompt locations are required here, but each search method has a number of optional knobs that can be tuned.

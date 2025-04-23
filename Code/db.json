@@ -1,6 +1,11 @@
 {
-    "Microsoft_GraphRAG": {
-        "uri": "neo4j+s://5d1df77d.databases.neo4j.io",
+    "Microsoft_GraphRAG_1": {
+        "uri": "neo4j+s://4a611e89.databases.neo4j.io",
+        "username": "neo4j",
+        "password": ""
+    },
+    "Microsoft_GraphRAG_2": {
+        "uri": "neo4j+s://4a611e89.databases.neo4j.io",
         "username": "neo4j",
         "password": ""
     },

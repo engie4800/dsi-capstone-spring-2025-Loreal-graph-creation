@@ -1,0 +1,35 @@
+{
+    "queries": {
+        "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p": "What is the most common ingredient found across all products in the dataset, and what percentage of products contain this ingredient?",
+        "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q": "Which brand has the highest ratio of premium products (priced over $100) to total products, and what is this ratio?",
+        "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r": "Among products containing both Vitamin E (Tocopheryl Acetate) and Hyaluronic Acid (Sodium Hyaluronate), what is the average price and how does it compare to the overall average price of products in the dataset?",
+        "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s": "Which product type shows the greatest price variance, and what factors might contribute to this variance?",
+        "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t": "What percentage of products are formulated to be suitable for all four skin types (Dry, Normal, Oily, and Sensitive), and which brand has the highest proportion of such versatile products?",
+        "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u": "Is there a correlation between the number of ingredients in a product and its price? Identify the top three products with the most ingredients and their price points.",
+        "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v": "Which ingredients are exclusive to products priced above $150, and what skin benefits might these ingredients provide?",
+        "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w": "For each brand, what is the ratio of face masks to total products, and which brand specializes most in mask treatments based on this ratio?",
+        "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x": "If a customer with combination skin (oily T-zone, dry cheeks) is looking for products containing Niacinamide for brightening and priced under $100, how many options are available and from which brands?",
+        "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y": "Which brand has the most diverse product lineup in terms of product types, and what is the average price differential between their most expensive and least expensive product in each category?"
+    },
+    "responses": {
+        "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p": "Butylene Glycol is the most common ingredient, appearing in 16 out of 25 products (64%). This ingredient is a humectant that helps products spread easily and acts as a solvent for other ingredients, which explains its widespread use across different product types and brands.",
+        
+        "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q": "SK-II has the highest ratio of premium products with 5 out of 6 products (83.3%) priced over $100. This positions SK-II as the most premium brand in the dataset, with LA MER following at 75% (3 out of 4 products), ESTEE LAUDER at 16.7% (1 out of 6 products), and KIEHL'S SINCE 1851 at 11.1% (1 out of 9 products).",
+        
+        "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r": "Products containing both Vitamin E and Hyaluronic Acid have an average price of $71.80, which is $28.20 lower than the overall average price of $100 for all products in the dataset. This suggests that these anti-aging ingredients are becoming more accessible and are not limited to only high-end luxury products.",
+        
+        "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s": "Moisturizers show the greatest price variance with prices ranging from $29 to $270 (a range of $241). This wide price range can be attributed to differences in brand positioning (mass-market vs. luxury), ingredient quality and concentration, specialized formulations for specific skin concerns, and the brand's overall market positioning and heritage.",
+        
+        "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t": "84% of the products (21 out of 25) are formulated to be suitable for all four skin types (Dry, Normal, Oily, and Sensitive). SK-II and LA MER both have 100% of their products suitable for all skin types (6 out of 6 for SK-II and 4 out of 4 for LA MER), making them tied for the highest proportion of versatile products.",
+        
+        "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u": "There is a moderate positive correlation between ingredient count and price, with more expensive products typically containing more ingredients. The top three products with the most ingredients are: LA MER's The Moisturizing Soft Cream ($170, 79 ingredients), ESTEE LAUDER's Revitalizing Supreme+ Global Anti-Aging Cell Power Creme ($88, 67 ingredients), and ESTEE LAUDER's Advanced Night Repair Intensive Recovery Ampoules ($115, 65 ingredients). These complex formulations reflect the premium positioning of these products.",
+        
+        "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v": "Ingredients exclusive to products priced above $150 include Galactomyces Ferment Filtrate (Pitera), Algae Extract (Miracle Broth), and Crithmum Maritimum Extract. Pitera is claimed to enhance skin cell renewal and improve texture, while marine ingredients like Algae Extract and Crithmum Maritimum are rich in minerals and antioxidants that help with hydration, anti-aging, and protection against environmental stressors.",
+        
+        "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w": "The ratio of face masks to total products for each brand is: LA MER: 1/4 (25%), SK-II: 3/6 (50%), KIEHL'S SINCE 1851: 3/9 (33.3%), and ESTEE LAUDER: 1/6 (16.7%). Based on this ratio, SK-II specializes most in mask treatments, with half of its product lineup dedicated to masks.",
+        
+        "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x": "There are 3 products containing Niacinamide priced under $100 that would be suitable for combination skin (products that work for both oily and dry skin types): KIEHL'S SINCE 1851's Powerful-Strength Line-Reducing Eye-Brightening Concentrate ($65), KIEHL'S SINCE 1851's Clearly Corrective™ Dark Circle Perfector ($38), and ESTEE LAUDER's Advanced Night Repair Eye Serum Synchronized Complex II ($69). These products can help brighten the skin while addressing the needs of different skin zones.",
+        
+        "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y": "KIEHL'S SINCE 1851 has the most diverse product lineup, offering products across all three product types (5 moisturizers, 3 face masks, and 3 eye creams). The average price differential between their most expensive and least expensive product in each category is $50.33 ($79 for moisturizers, $51 for face masks, and $21 for eye creams). This indicates a strategy of offering products at various price points within each category to appeal to different consumer segments."
+    }
+}

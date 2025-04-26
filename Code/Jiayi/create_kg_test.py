@@ -31,28 +31,28 @@ graph = Neo4jGraph(
     password=os.getenv('NEO4J_PASSWORD')
 )
 
-# doc_transformer = LLMGraphTransformer(
-#     llm=llm,
-#     allowed_nodes=[
-#     "Brand", "Category", "Product", "Price", 
-#     "Rating", "Skin Type", "Size", "Description"
-#     ],
-#     allowed_relationships=[
-#     "FROM_BRAND", "HAS_PRICE", "HAS_RATING", "FOR_SKIN_TYPE",
-#     "IN_SIZE", "HAS_DESCRIPTION", "BELONGS_TO"
-#     ],
-#     node_properties=["productName", "ingredients", "size", "rating", "price",
-#                      "skinType", "description", "brandName", "categoryName"],
-#     strict_mode=True
-#     )
-
 doc_transformer = LLMGraphTransformer(
     llm=llm,
-    allowed_nodes = ["Product"],
-    node_properties=["productName", "ingredients", "size", "rating", "price",
-                     "forSkinType", "description", "brand", "category"],
+    allowed_nodes=[
+    "Brand", "Product_type", "Product", "Price", 
+    "Rating", "Skin_type", "Size", "Description", "Ingredients"
+    ],
+    allowed_relationships=[
+    "FROM_BRAND", "HAS_PRICE", "HAS_RATING", "FOR_SKIN_TYPE",
+    "IN_SIZE", "HAS_DESCRIPTION", "HAS_PRODUCT_TYPE", "CONTAINS_INGREDIENT"
+    ],
+    node_properties=["name", "size", "rating", "price",
+                     "type", "content"],
     strict_mode=True
     )
+
+# doc_transformer = LLMGraphTransformer(
+#     llm=llm,
+#     allowed_nodes = ["Product"],
+#     node_properties=["productName", "ingredients", "size", "rating", "price",
+#                      "forSkinType", "description", "brand", "category"],
+#     strict_mode=True
+#     )
 
 # Load and split the documents
 loader = CSVLoader(file_path=DOCS_PATH)

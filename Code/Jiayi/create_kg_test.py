@@ -17,7 +17,7 @@ DOCS_PATH = "./data/cosmetics_25_products.csv"
 
 llm = ChatOpenAI(
     openai_api_key=os.getenv('OPENAI_API_KEY'), 
-    model_name="gpt-4o-mini"
+    model_name="gpt-4"
 )
 
 embedding_provider = OpenAIEmbeddings(
@@ -41,8 +41,6 @@ doc_transformer = LLMGraphTransformer(
     "FROM_BRAND", "HAS_PRICE", "HAS_RATING", "FOR_SKIN_TYPE",
     "IN_SIZE", "HAS_DESCRIPTION", "HAS_PRODUCT_TYPE", "CONTAINS_INGREDIENT"
     ],
-    node_properties=["name", "size", "rating", "price",
-                     "type", "content"],
     strict_mode=True
     )
 

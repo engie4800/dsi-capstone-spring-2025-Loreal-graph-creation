@@ -1,10 +1,10 @@
 {
-    "Microsoft_GraphRAG_1": {
+    "Microsoft_GraphRAG (generic fewshots)": {
         "uri": "neo4j+s://4a611e89.databases.neo4j.io",
         "username": "neo4j",
         "password": ""
     },
-    "Microsoft_GraphRAG_2": {
+    "Microsoft_GraphRAG (finetuned fewshots)": {
         "uri": "neo4j+s://4a611e89.databases.neo4j.io",
         "username": "neo4j",
         "password": ""

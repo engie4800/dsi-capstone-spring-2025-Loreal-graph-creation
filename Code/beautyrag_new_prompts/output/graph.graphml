@@ -1,0 +1,323 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="SK-II" />
+    <node id="FACIAL TREATMENT ESSENCE" />
+    <node id="GENOPTICS AURA ESSENCE SERUM" />
+    <node id="DRY" />
+    <node id="NORMAL" />
+    <node id="OILY" />
+    <node id="SENSITIVE" />
+    <node id="GALACTOMYCES FERMENT FILTRATE" />
+    <node id="BUTYLENE GLYCOL" />
+    <node id="PENTYLENE GLYCOL" />
+    <node id="5.0 OZ (150ML)" />
+    <node id="WATER" />
+    <node id="SODIUM BENZOATE" />
+    <node id="METHYLPARABEN" />
+    <node id="SORBIC ACID" />
+    <node id="LA MER" />
+    <node id="THE MOISTURIZING SOFT CREAM" />
+    <node id="ALGAE EXTRACT" />
+    <node id="SHEA BUTTER" />
+    <node id="1.0 OZ (30ML)" />
+    <node id="DIMETHICONE" />
+    <node id="GLYCERIN" />
+    <node id="CAFFEINE" />
+    <node id="CYCLOPENTASILOXANE" />
+    <node id="PETROLATUM" />
+    <node id="GLYCERYL DISTEARATE" />
+    <node id="PHENYL TRIMETHICONE" />
+    <node id="FRAGRANCE" />
+    <node id="COPPER GLUCONATE" />
+    <node id="CALCIUM GLUCONATE" />
+    <node id="MAGNESIUM GLUCONATE" />
+    <node id="ZINC GLUCONATE" />
+    <node id="TOCOPHERYL SUCCINATE" />
+    <node id="NIACIN" />
+    <node id="SODIUM PCA" />
+    <node id="GLYCOSAMINOGLYCANS" />
+    <node id="UREA" />
+    <node id="DISTEARYLDIMONIUM CHLORIDE" />
+    <node id="DIPALMITOYL HYDROXYPROLINE" />
+    <node id="SODIUM HYALURONATE" />
+    <node id="LAURETH-7" />
+    <node id="LECITHIN" />
+    <node id="TREHALOSE" />
+    <node id="POLYQUATERNIUM-51" />
+    <node id="LACTOPEROXIDASE" />
+    <node id="HYDROXYPROPYL CYCLODEXTRIN" />
+    <node id="CYANOCOBALAMIN" />
+    <node id="NIACINAMIDE" />
+    <node id="DARK SPOTS" />
+    <node id="DULLNESS" />
+    <node id="FACIAL TREATMENT ESSENCE MINI" />
+    <node id="THE MOISTURIZING COOL GEL CREAM" />
+    <node id="THE MOISTURIZING SOFT LOTION" />
+    <node id="KIEHL'S SINCE 1851" />
+    <node id="ULTRA FACIAL OIL-FREE GEL-CREAM" />
+    <node id="ESTEE LAUDER" />
+    <node id="RESILIENCE LIFT NIGHT LIFTING/FIRMING FACE AND NECK CREME" />
+    <node id="ADVANCED NIGHT REPAIR INTENSIVE RECOVERY AMPOULES" />
+    <node id="REVITALIZING SUPREME+ GLOBAL ANTI-AGING CELL POWER CREME SPF 15" />
+    <node id="ULTRA FACIAL MOISTURIZER" />
+    <node id="ULTRA FACIAL CREAM SPF 30" />
+    <node id="MOISTURIZER" />
+    <node id="FACIAL TREATMENT MASK" />
+    <node id="FACE MASK" />
+    <node id="SIZE" />
+    <node id="OVERNIGHT MIRACLE MASK" />
+    <node id="BRIGHTENING DERM REVIVAL MASK" />
+    <node id="PITERA" />
+    <node id="RANK" />
+    <node id="CALENDULA &amp; ALOE SOOTHING HYDRATION MASK" />
+    <node id="ALOE BARBADENSIS LEAF JUICE" />
+    <node id="GINGER LEAF &amp; HIBISCUS FIRMING MASK" />
+    <node id="HIBISCUS" />
+    <node id="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" />
+    <node id="FIRMING MASK" />
+    <node id="TREATMENT LOTION HYDRATING MASK" />
+    <node id="GINGER LEAF EXTRACT" />
+    <node id="HIBISCUS SEED EXTRACT" />
+    <node id="ALGAE (SEAWEED) EXTRACT" />
+    <node id="METHYL GLUCETH-20" />
+    <node id="PROPANEDIOL" />
+    <node id="SESAMUM INDICUM (SESAME) SEED OIL" />
+    <node id="EUCALYPTUS GLOBULUS (EUCALYPTUS) LEAF OIL" />
+    <node id="HYDROLYZED YEAST PROTEIN" />
+    <node id="HYDROXYETHYLCELLULOSE" />
+    <node id="CAPRYLYL GLYCOL" />
+    <node id="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK&lt;|DIFF_MARKER|&gt;EUCALYPTUS GLOBULUS (EUCALYPTUS) LEAF OIL&lt;|DIFF_MARKER|&gt;EUCALYPTUS LEAF OIL IS USED IN THE ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK FOR ITS REFRESHING SCENT AND POTENTIAL BENEFITS&lt;|DIFF_MARKER|&gt;7)&lt;|COMPLETE|&gt;(&quot;ENTITY&quot;" />
+    <node id="CILANTRO &amp; ORANGE EXTRACT POLLUTANT DEFENDING MASK" />
+    <node id="ADVANCED NIGHT REPAIR EYE CONCENTRATE MATRIX" />
+    <node id="ADVANCED NIGHT REPAIR EYE SERUM SYNCHRONIZED COMPLEX II" />
+    <node id="YOUTH DOSE EYE TREATMENT" />
+    <node id="POWERFUL-STRENGTH LINE-REDUCING EYE-BRIGHTENING CONCENTRATE" />
+    <node id="CLEARLY CORRECTIVE&#8482; DARK CIRCLE PERFECTOR" />
+    <node id="EYE CREAM" />
+    <node id="PRICE" />
+    <node id="ETHICONE" />
+    <node id="TINTED EYE TREATMENT" />
+    <node id="CETYLPOLYGLYCEROL-10/1 DIMETHICONE" />
+    <node id="PHENOXYETHANOL" />
+    <node id="SODIUM CHLORIDE" />
+    <node id="POLYGLYCERYL-4 ISOSTEARATE" />
+    <node id="ETHYLHEXYLGLYCERIN" />
+    <node id="CHLORPHENESIN" />
+    <node id="DISODIUM STEAROYL GLUTAMATE" />
+    <node id="GLYCYRRHIZA GLABRA (LICORICE) ROOT EXTRACT" />
+    <node id="ALUMINUM HYDROXIDE" />
+    <node id="TITANIUM DIOXIDE" />
+    <node id="IRON OXIDES" />
+    <node id="MICA" />
+    <node id="DRY SKIN" />
+    <node id="NORMAL SKIN" />
+    <node id="OILY SKIN" />
+    <node id="SENSITIVE SKIN" />
+    <node id="COLOR-CORRECTING TECHNOLOGY" />
+    <node id="DARK CIRCLES" />
+    <node id="SKINCARE BENEFITS" />
+    <node id="EYE TREATMENT" />
+    <edge source="SK-II" target="FACIAL TREATMENT ESSENCE" />
+    <edge source="SK-II" target="GENOPTICS AURA ESSENCE SERUM" />
+    <edge source="SK-II" target="DRY" />
+    <edge source="SK-II" target="NORMAL" />
+    <edge source="SK-II" target="OILY" />
+    <edge source="SK-II" target="SENSITIVE" />
+    <edge source="SK-II" target="GALACTOMYCES FERMENT FILTRATE" />
+    <edge source="SK-II" target="FACIAL TREATMENT ESSENCE MINI" />
+    <edge source="SK-II" target="FACIAL TREATMENT MASK" />
+    <edge source="SK-II" target="OVERNIGHT MIRACLE MASK" />
+    <edge source="SK-II" target="BRIGHTENING DERM REVIVAL MASK" />
+    <edge source="FACIAL TREATMENT ESSENCE" target="GALACTOMYCES FERMENT FILTRATE" />
+    <edge source="FACIAL TREATMENT ESSENCE" target="BUTYLENE GLYCOL" />
+    <edge source="FACIAL TREATMENT ESSENCE" target="PENTYLENE GLYCOL" />
+    <edge source="FACIAL TREATMENT ESSENCE" target="5.0 OZ (150ML)" />
+    <edge source="FACIAL TREATMENT ESSENCE" target="WATER" />
+    <edge source="FACIAL TREATMENT ESSENCE" target="SODIUM BENZOATE" />
+    <edge source="FACIAL TREATMENT ESSENCE" target="METHYLPARABEN" />
+    <edge source="FACIAL TREATMENT ESSENCE" target="SORBIC ACID" />
+    <edge source="GENOPTICS AURA ESSENCE SERUM" target="GALACTOMYCES FERMENT FILTRATE" />
+    <edge source="GENOPTICS AURA ESSENCE SERUM" target="NIACINAMIDE" />
+    <edge source="GENOPTICS AURA ESSENCE SERUM" target="DARK SPOTS" />
+    <edge source="GENOPTICS AURA ESSENCE SERUM" target="DULLNESS" />
+    <edge source="DRY" target="LA MER" />
+    <edge source="DRY" target="RESILIENCE LIFT NIGHT LIFTING/FIRMING FACE AND NECK CREME" />
+    <edge source="DRY" target="ADVANCED NIGHT REPAIR INTENSIVE RECOVERY AMPOULES" />
+    <edge source="DRY" target="REVITALIZING SUPREME+ GLOBAL ANTI-AGING CELL POWER CREME SPF 15" />
+    <edge source="DRY" target="ULTRA FACIAL MOISTURIZER" />
+    <edge source="DRY" target="ULTRA FACIAL CREAM SPF 30" />
+    <edge source="DRY" target="FACIAL TREATMENT MASK" />
+    <edge source="DRY" target="TREATMENT LOTION HYDRATING MASK" />
+    <edge source="DRY" target="CILANTRO &amp; ORANGE EXTRACT POLLUTANT DEFENDING MASK" />
+    <edge source="DRY" target="ADVANCED NIGHT REPAIR EYE CONCENTRATE MATRIX" />
+    <edge source="DRY" target="ADVANCED NIGHT REPAIR EYE SERUM SYNCHRONIZED COMPLEX II" />
+    <edge source="DRY" target="YOUTH DOSE EYE TREATMENT" />
+    <edge source="DRY" target="POWERFUL-STRENGTH LINE-REDUCING EYE-BRIGHTENING CONCENTRATE" />
+    <edge source="DRY" target="CLEARLY CORRECTIVE&#8482; DARK CIRCLE PERFECTOR" />
+    <edge source="NORMAL" target="LA MER" />
+    <edge source="NORMAL" target="RESILIENCE LIFT NIGHT LIFTING/FIRMING FACE AND NECK CREME" />
+    <edge source="NORMAL" target="ADVANCED NIGHT REPAIR INTENSIVE RECOVERY AMPOULES" />
+    <edge source="NORMAL" target="REVITALIZING SUPREME+ GLOBAL ANTI-AGING CELL POWER CREME SPF 15" />
+    <edge source="NORMAL" target="ULTRA FACIAL MOISTURIZER" />
+    <edge source="NORMAL" target="ULTRA FACIAL CREAM SPF 30" />
+    <edge source="NORMAL" target="FACIAL TREATMENT MASK" />
+    <edge source="NORMAL" target="CILANTRO &amp; ORANGE EXTRACT POLLUTANT DEFENDING MASK" />
+    <edge source="NORMAL" target="ADVANCED NIGHT REPAIR EYE CONCENTRATE MATRIX" />
+    <edge source="NORMAL" target="ADVANCED NIGHT REPAIR EYE SERUM SYNCHRONIZED COMPLEX II" />
+    <edge source="NORMAL" target="YOUTH DOSE EYE TREATMENT" />
+    <edge source="NORMAL" target="POWERFUL-STRENGTH LINE-REDUCING EYE-BRIGHTENING CONCENTRATE" />
+    <edge source="NORMAL" target="CLEARLY CORRECTIVE&#8482; DARK CIRCLE PERFECTOR" />
+    <edge source="OILY" target="LA MER" />
+    <edge source="OILY" target="RESILIENCE LIFT NIGHT LIFTING/FIRMING FACE AND NECK CREME" />
+    <edge source="OILY" target="ADVANCED NIGHT REPAIR INTENSIVE RECOVERY AMPOULES" />
+    <edge source="OILY" target="REVITALIZING SUPREME+ GLOBAL ANTI-AGING CELL POWER CREME SPF 15" />
+    <edge source="OILY" target="ULTRA FACIAL MOISTURIZER" />
+    <edge source="OILY" target="ULTRA FACIAL CREAM SPF 30" />
+    <edge source="OILY" target="FACIAL TREATMENT MASK" />
+    <edge source="OILY" target="CILANTRO &amp; ORANGE EXTRACT POLLUTANT DEFENDING MASK" />
+    <edge source="OILY" target="ADVANCED NIGHT REPAIR EYE CONCENTRATE MATRIX" />
+    <edge source="OILY" target="ADVANCED NIGHT REPAIR EYE SERUM SYNCHRONIZED COMPLEX II" />
+    <edge source="SENSITIVE" target="LA MER" />
+    <edge source="SENSITIVE" target="RESILIENCE LIFT NIGHT LIFTING/FIRMING FACE AND NECK CREME" />
+    <edge source="SENSITIVE" target="ADVANCED NIGHT REPAIR INTENSIVE RECOVERY AMPOULES" />
+    <edge source="SENSITIVE" target="REVITALIZING SUPREME+ GLOBAL ANTI-AGING CELL POWER CREME SPF 15" />
+    <edge source="SENSITIVE" target="ULTRA FACIAL MOISTURIZER" />
+    <edge source="SENSITIVE" target="ULTRA FACIAL CREAM SPF 30" />
+    <edge source="SENSITIVE" target="FACIAL TREATMENT MASK" />
+    <edge source="SENSITIVE" target="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" />
+    <edge source="BUTYLENE GLYCOL" target="TREATMENT LOTION HYDRATING MASK" />
+    <edge source="BUTYLENE GLYCOL" target="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" />
+    <edge source="PENTYLENE GLYCOL" target="TREATMENT LOTION HYDRATING MASK" />
+    <edge source="PENTYLENE GLYCOL" target="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" />
+    <edge source="WATER" target="BRIGHTENING DERM REVIVAL MASK" />
+    <edge source="WATER" target="CALENDULA &amp; ALOE SOOTHING HYDRATION MASK" />
+    <edge source="WATER" target="GINGER LEAF &amp; HIBISCUS FIRMING MASK" />
+    <edge source="WATER" target="TREATMENT LOTION HYDRATING MASK" />
+    <edge source="WATER" target="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" />
+    <edge source="LA MER" target="THE MOISTURIZING SOFT CREAM" />
+    <edge source="LA MER" target="THE MOISTURIZING COOL GEL CREAM" />
+    <edge source="LA MER" target="THE MOISTURIZING SOFT LOTION" />
+    <edge source="LA MER" target="TREATMENT LOTION HYDRATING MASK" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="ALGAE EXTRACT" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="SHEA BUTTER" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="1.0 OZ (30ML)" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="DIMETHICONE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="GLYCERIN" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="CAFFEINE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="CYCLOPENTASILOXANE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="PETROLATUM" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="GLYCERYL DISTEARATE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="PHENYL TRIMETHICONE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="FRAGRANCE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="COPPER GLUCONATE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="CALCIUM GLUCONATE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="MAGNESIUM GLUCONATE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="ZINC GLUCONATE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="TOCOPHERYL SUCCINATE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="NIACIN" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="SODIUM PCA" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="GLYCOSAMINOGLYCANS" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="UREA" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="DISTEARYLDIMONIUM CHLORIDE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="DIPALMITOYL HYDROXYPROLINE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="SODIUM HYALURONATE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="LAURETH-7" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="LECITHIN" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="TREHALOSE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="POLYQUATERNIUM-51" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="LACTOPEROXIDASE" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="HYDROXYPROPYL CYCLODEXTRIN" />
+    <edge source="THE MOISTURIZING SOFT CREAM" target="CYANOCOBALAMIN" />
+    <edge source="SHEA BUTTER" target="GINGER LEAF &amp; HIBISCUS FIRMING MASK" />
+    <edge source="1.0 OZ (30ML)" target="FACIAL TREATMENT ESSENCE MINI" />
+    <edge source="GLYCERIN" target="OVERNIGHT MIRACLE MASK" />
+    <edge source="GLYCERIN" target="TREATMENT LOTION HYDRATING MASK" />
+    <edge source="GLYCERIN" target="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" />
+    <edge source="CAFFEINE" target="TINTED EYE TREATMENT" />
+    <edge source="TREHALOSE" target="TREATMENT LOTION HYDRATING MASK" />
+    <edge source="TREHALOSE" target="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" />
+    <edge source="NIACINAMIDE" target="BRIGHTENING DERM REVIVAL MASK" />
+    <edge source="KIEHL'S SINCE 1851" target="ULTRA FACIAL OIL-FREE GEL-CREAM" />
+    <edge source="KIEHL'S SINCE 1851" target="ULTRA FACIAL MOISTURIZER" />
+    <edge source="KIEHL'S SINCE 1851" target="ULTRA FACIAL CREAM SPF 30" />
+    <edge source="KIEHL'S SINCE 1851" target="CALENDULA &amp; ALOE SOOTHING HYDRATION MASK" />
+    <edge source="KIEHL'S SINCE 1851" target="GINGER LEAF &amp; HIBISCUS FIRMING MASK" />
+    <edge source="KIEHL'S SINCE 1851" target="CILANTRO &amp; ORANGE EXTRACT POLLUTANT DEFENDING MASK" />
+    <edge source="KIEHL'S SINCE 1851" target="YOUTH DOSE EYE TREATMENT" />
+    <edge source="KIEHL'S SINCE 1851" target="POWERFUL-STRENGTH LINE-REDUCING EYE-BRIGHTENING CONCENTRATE" />
+    <edge source="KIEHL'S SINCE 1851" target="CLEARLY CORRECTIVE&#8482; DARK CIRCLE PERFECTOR" />
+    <edge source="ESTEE LAUDER" target="RESILIENCE LIFT NIGHT LIFTING/FIRMING FACE AND NECK CREME" />
+    <edge source="ESTEE LAUDER" target="ADVANCED NIGHT REPAIR INTENSIVE RECOVERY AMPOULES" />
+    <edge source="ESTEE LAUDER" target="REVITALIZING SUPREME+ GLOBAL ANTI-AGING CELL POWER CREME SPF 15" />
+    <edge source="ESTEE LAUDER" target="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" />
+    <edge source="ESTEE LAUDER" target="ADVANCED NIGHT REPAIR EYE CONCENTRATE MATRIX" />
+    <edge source="ESTEE LAUDER" target="ADVANCED NIGHT REPAIR EYE SERUM SYNCHRONIZED COMPLEX II" />
+    <edge source="RESILIENCE LIFT NIGHT LIFTING/FIRMING FACE AND NECK CREME" target="MOISTURIZER" />
+    <edge source="ADVANCED NIGHT REPAIR INTENSIVE RECOVERY AMPOULES" target="MOISTURIZER" />
+    <edge source="REVITALIZING SUPREME+ GLOBAL ANTI-AGING CELL POWER CREME SPF 15" target="MOISTURIZER" />
+    <edge source="ULTRA FACIAL MOISTURIZER" target="MOISTURIZER" />
+    <edge source="ULTRA FACIAL CREAM SPF 30" target="MOISTURIZER" />
+    <edge source="FACIAL TREATMENT MASK" target="FACE MASK" />
+    <edge source="FACIAL TREATMENT MASK" target="SIZE" />
+    <edge source="SIZE" target="OVERNIGHT MIRACLE MASK" />
+    <edge source="SIZE" target="CALENDULA &amp; ALOE SOOTHING HYDRATION MASK" />
+    <edge source="SIZE" target="GINGER LEAF &amp; HIBISCUS FIRMING MASK" />
+    <edge source="OVERNIGHT MIRACLE MASK" target="PITERA" />
+    <edge source="OVERNIGHT MIRACLE MASK" target="RANK" />
+    <edge source="BRIGHTENING DERM REVIVAL MASK" target="RANK" />
+    <edge source="RANK" target="CALENDULA &amp; ALOE SOOTHING HYDRATION MASK" />
+    <edge source="RANK" target="GINGER LEAF &amp; HIBISCUS FIRMING MASK" />
+    <edge source="RANK" target="YOUTH DOSE EYE TREATMENT" />
+    <edge source="RANK" target="POWERFUL-STRENGTH LINE-REDUCING EYE-BRIGHTENING CONCENTRATE" />
+    <edge source="RANK" target="CLEARLY CORRECTIVE&#8482; DARK CIRCLE PERFECTOR" />
+    <edge source="CALENDULA &amp; ALOE SOOTHING HYDRATION MASK" target="ALOE BARBADENSIS LEAF JUICE" />
+    <edge source="GINGER LEAF &amp; HIBISCUS FIRMING MASK" target="HIBISCUS" />
+    <edge source="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" target="FIRMING MASK" />
+    <edge source="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" target="GINGER LEAF EXTRACT" />
+    <edge source="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" target="HIBISCUS SEED EXTRACT" />
+    <edge source="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" target="ALGAE (SEAWEED) EXTRACT" />
+    <edge source="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" target="HYDROLYZED YEAST PROTEIN" />
+    <edge source="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" target="HYDROXYETHYLCELLULOSE" />
+    <edge source="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK" target="CAPRYLYL GLYCOL" />
+    <edge source="FIRMING MASK" target="TREATMENT LOTION HYDRATING MASK" />
+    <edge source="TREATMENT LOTION HYDRATING MASK" target="GINGER LEAF EXTRACT" />
+    <edge source="TREATMENT LOTION HYDRATING MASK" target="HIBISCUS SEED EXTRACT" />
+    <edge source="TREATMENT LOTION HYDRATING MASK" target="ALGAE (SEAWEED) EXTRACT" />
+    <edge source="TREATMENT LOTION HYDRATING MASK" target="METHYL GLUCETH-20" />
+    <edge source="TREATMENT LOTION HYDRATING MASK" target="PROPANEDIOL" />
+    <edge source="TREATMENT LOTION HYDRATING MASK" target="SESAMUM INDICUM (SESAME) SEED OIL" />
+    <edge source="TREATMENT LOTION HYDRATING MASK" target="EUCALYPTUS GLOBULUS (EUCALYPTUS) LEAF OIL" />
+    <edge source="TREATMENT LOTION HYDRATING MASK" target="HYDROLYZED YEAST PROTEIN" />
+    <edge source="TREATMENT LOTION HYDRATING MASK" target="HYDROXYETHYLCELLULOSE" />
+    <edge source="TREATMENT LOTION HYDRATING MASK" target="CAPRYLYL GLYCOL" />
+    <edge source="HYDROLYZED YEAST PROTEIN" target="ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK&lt;|DIFF_MARKER|&gt;EUCALYPTUS GLOBULUS (EUCALYPTUS) LEAF OIL&lt;|DIFF_MARKER|&gt;EUCALYPTUS LEAF OIL IS USED IN THE ADVANCED NIGHT REPAIR CONCENTRATED RECOVERY EYE MASK FOR ITS REFRESHING SCENT AND POTENTIAL BENEFITS&lt;|DIFF_MARKER|&gt;7)&lt;|COMPLETE|&gt;(&quot;ENTITY&quot;" />
+    <edge source="CAPRYLYL GLYCOL" target="TINTED EYE TREATMENT" />
+    <edge source="YOUTH DOSE EYE TREATMENT" target="EYE CREAM" />
+    <edge source="YOUTH DOSE EYE TREATMENT" target="PRICE" />
+    <edge source="POWERFUL-STRENGTH LINE-REDUCING EYE-BRIGHTENING CONCENTRATE" target="EYE CREAM" />
+    <edge source="POWERFUL-STRENGTH LINE-REDUCING EYE-BRIGHTENING CONCENTRATE" target="PRICE" />
+    <edge source="CLEARLY CORRECTIVE&#8482; DARK CIRCLE PERFECTOR" target="EYE CREAM" />
+    <edge source="CLEARLY CORRECTIVE&#8482; DARK CIRCLE PERFECTOR" target="PRICE" />
+    <edge source="ETHICONE" target="TINTED EYE TREATMENT" />
+    <edge source="TINTED EYE TREATMENT" target="CETYLPOLYGLYCEROL-10/1 DIMETHICONE" />
+    <edge source="TINTED EYE TREATMENT" target="PHENOXYETHANOL" />
+    <edge source="TINTED EYE TREATMENT" target="SODIUM CHLORIDE" />
+    <edge source="TINTED EYE TREATMENT" target="POLYGLYCERYL-4 ISOSTEARATE" />
+    <edge source="TINTED EYE TREATMENT" target="ETHYLHEXYLGLYCERIN" />
+    <edge source="TINTED EYE TREATMENT" target="CHLORPHENESIN" />
+    <edge source="TINTED EYE TREATMENT" target="DISODIUM STEAROYL GLUTAMATE" />
+    <edge source="TINTED EYE TREATMENT" target="GLYCYRRHIZA GLABRA (LICORICE) ROOT EXTRACT" />
+    <edge source="TINTED EYE TREATMENT" target="ALUMINUM HYDROXIDE" />
+    <edge source="TINTED EYE TREATMENT" target="TITANIUM DIOXIDE" />
+    <edge source="TINTED EYE TREATMENT" target="IRON OXIDES" />
+    <edge source="TINTED EYE TREATMENT" target="MICA" />
+    <edge source="TINTED EYE TREATMENT" target="DRY SKIN" />
+    <edge source="TINTED EYE TREATMENT" target="NORMAL SKIN" />
+    <edge source="TINTED EYE TREATMENT" target="OILY SKIN" />
+    <edge source="TINTED EYE TREATMENT" target="SENSITIVE SKIN" />
+    <edge source="TINTED EYE TREATMENT" target="COLOR-CORRECTING TECHNOLOGY" />
+    <edge source="TINTED EYE TREATMENT" target="DARK CIRCLES" />
+    <edge source="TINTED EYE TREATMENT" target="SKINCARE BENEFITS" />
+    <edge source="TINTED EYE TREATMENT" target="EYE TREATMENT" />
+  </graph>
+</graphml>

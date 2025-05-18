@@ -1,5 +1,0 @@
-amazon_dataset.csv
-unstructured.txt
-Code/data
-.env
-Code/.DS_Store

@@ -1,0 +1,35 @@
+{
+    "queries": {
+        "7f8d5a3e-9c24-4b06-8e4a-b5f3d9c2a901": "How many moisturizer products are available in the dataset?",
+        "2e6b4a12-8f3d-4c7e-91af-d62c0e7f4e2a": "How many products does SK-II offer in the collection?",
+        "3a9d7c1e-65f8-4e2b-b9d0-8c7f4e6d3a5b": "What is the average price of LA MER products in the dataset?",
+        "4b8c6d2a-7e0f-4d3b-a9c8-6b5d4e3f2a1c": "How many products in the dataset are suitable for sensitive skin?",
+        "5c7b5d3a-6e4f-4d2c-b8a7-5c6d4e3f2a1b": "How many eye cream products are priced under $50?",
+        "6d6c5b4a-5d4e-4c3b-a2b1-0f9e8d7c6b5a": "Which brand has the highest average product rating (rank) in the dataset?",
+        "7e5d6c4b-3a2b-4c1d-9e8f-7d6c5b4a3d2e": "What is the price difference between the most expensive and least expensive moisturizer?",
+        "8f4e3d2c-1b0a-4d9e-8f7e-6d5c4b3a2d1e": "Which skin type has the most product options available, and how many more products does it have compared to the least represented skin type?",
+        "9e8d7c6b-5a4f-4e3d-2c1b-0a9f8e7d6c5b": "Between SK-II and ESTEE LAUDER, which brand offers more products suitable for dry skin, and what is the price range of these products?",
+        "0a9f8e7d-6c5b-4a3f-2e1d-0c9b8a7f6e5d": "Compare the average prices of face masks versus eye creams. Which product type is more expensive on average and by how much?"
+    },
+    "responses": {
+        "7f8d5a3e-9c24-4b06-8e4a-b5f3d9c2a901": "There are 12 moisturizer products in the dataset. These products are categorized under the 'Product Type' field as 'Moisturizer' and include items from various brands such as SK-II, LA MER, KIEHL'S SINCE 1851, and ESTEE LAUDER.",
+        
+        "2e6b4a12-8f3d-4c7e-91af-d62c0e7f4e2a": "SK-II offers 6 products in the collection. These products include facial essences, serums, and masks that feature the brand's signature ingredient, Pitera.",
+        
+        "3a9d7c1e-65f8-4e2b-b9d0-8c7f4e6d3a5b": "The average price of LA MER products in the dataset is $192.50. LA MER is known for its premium skincare products that feature the brand's signature Miracle Broth ingredient, which contributes to their higher price point.",
+        
+        "4b8c6d2a-7e0f-4d3b-a9c8-6b5d4e3f2a1c": "There are 20 products in the dataset that are suitable for sensitive skin. These products are formulated with ingredients that are gentle and non-irritating, making them appropriate for those with sensitive skin concerns.",
+        
+        "5c7b5d3a-6e4f-4d2c-b8a7-5c6d4e3f2a1b": "There are 3 eye cream products priced under $50 in the dataset. These more affordable eye treatments provide options for consumers looking for eye care solutions at a lower price point.",
+        
+        "6d6c5b4a-5d4e-4c3b-a2b1-0f9e8d7c6b5a": "SK-II has the highest average product rating with an average rank of 4.17. This indicates that SK-II products receive consistently high customer satisfaction ratings across their product line, which includes their popular Facial Treatment Essence and other Pitera-based skincare items.",
+        
+        "7e5d6c4b-3a2b-4c1d-9e8f-7d6c5b4a3d2e": "The price difference between the most expensive and least expensive moisturizer is $241. The most expensive moisturizer in the dataset costs $270, while the least expensive is priced at $29. This significant price range reflects the variety of options available across luxury and more affordable brands.",
+        
+        "8f4e3d2c-1b0a-4d9e-8f7e-6d5c4b3a2d1e": "Both Dry and Normal skin types have the most product options with 24 products each, while Oily and Sensitive skin types have 20 products each. The difference is 4 products. This indicates that while there are more products formulated for dry and normal skin, there is still a substantial number of options available for those with oily and sensitive skin concerns.",
+        
+        "9e8d7c6b-5a4f-4e3d-2c1b-0a9f8e7d6c5b": "Both SK-II and ESTEE LAUDER offer the same number of products suitable for dry skin (6 each). SK-II's price range for these products is $99 to $240, while ESTEE LAUDER's price range is $46 to $115. This shows that while both brands have equal representation for dry skin products, SK-II positions itself at a higher price point compared to ESTEE LAUDER.",
+        
+        "0a9f8e7d-6c5b-4a3f-2e1d-0c9b8a7f6e5d": "Face masks are more expensive with an average price of $93.00, while eye creams have an average price of $51.20. Face masks are more expensive by $41.80 on average. This price difference may reflect the larger product size of face masks and their formulation, which often includes a higher concentration of active ingredients designed for intensive treatment."
+    }
+}

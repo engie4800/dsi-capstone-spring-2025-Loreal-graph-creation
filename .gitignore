@@ -3,3 +3,15 @@ unstructured.txt
 Code/data
 .env
 Code/.DS_Store
+
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.vscode/
+**/.idea/
+**/.DS_Store
+**/env/
+
+**/chroma_db/
+private*
+
+**/eval*qa*

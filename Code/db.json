@@ -1,0 +1,27 @@
+{
+    "Microsoft_GraphRAG (generic fewshots)": {
+        "uri": "neo4j+s://4a611e89.databases.neo4j.io",
+        "username": "neo4j",
+        "password": ""
+    },
+    "Microsoft_GraphRAG (finetuned fewshots)": {
+        "uri": "neo4j+s://4a611e89.databases.neo4j.io",
+        "username": "neo4j",
+        "password": ""
+    },
+    "LLMGraphTransformer_GraphRAG_1": {
+        "uri": "neo4j+s://ca0a24ae.databases.neo4j.io",
+        "username": "neo4j",
+        "password": ""
+    },
+    "LLMGraphTransformer_GraphRAG_2": {
+        "uri": "neo4j+s://45b6f371.databases.neo4j.io",
+        "username": "neo4j",
+        "password": ""
+    }, 
+    "OpenAI_GraphRAG": {
+        "uri": "neo4j+s://0bccd8b7.databases.neo4j.io",
+        "username": "neo4j",
+        "password": ""
+    }
+}
